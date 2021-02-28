@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body
+{
+    overflow-x:hidden ;
+    margin: 0;
+    padding: 0;
+}
+.text1
+{
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    opacity: 0%;
+    animation-name: txtmove;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    color: black;
+    
+}
+
+@keyframes txtmove
+{
+    0%{opacity: 0%;top: 40%;}
+    100%{opacity: 100%; top: 0}
+}
+
+  /*  background-color: rgb(42, 218, 159);)
+  AIzaSyDzSoHKv-89Wu0RWwMMEiIvXr6ZmwJj49w */
+  
+.amb1
+{
+    height: auto;
+    width: 15%;
+    animation-name: move;
+    animation-duration: 4s;
+    left: -25%;
+    position: absolute;
+    top: 40%;
+}
+
+@keyframes move
+{
+0%{left:-25%;}
+100%{left: 120%;}
+
+}
+
+
+.content
+{
+    display: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cont
+{
+    display: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bt
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: block;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 23px;
+    border-radius: 20px;
+    background-color: rgb(33, 182, 132);
+}
+.bt:hover
+{
+    background-color: rgb(31, 161, 118);
+    cursor: pointer;
+}
+.bt:active
+{
+    border: none;
+}
+

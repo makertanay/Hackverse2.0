@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshak</title>
+    <link rel="icon" href="ambulance.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="text" class="text1" class="text1" >Rakshak</div>
+    <img class="amb1" src="./ambulance.png" alt="" >
+    <div id="cont" class="cont">
+        <h3 style="text-align: center;">YOU ARE AT: SoBo Center</h3>
+        <h3 style="text-align: center;">NEAREST Hospital:<br> Sannidhya Multi Speciality Hospital</h3>
+            <button class="bt"> GET AMBULANCE!</button>
+            
+        <div style="overflow:hidden;max-width:100%;width:800px;height:500px; display: block; margin-left: auto;margin-right: auto; margin-top: 2%; ">
+            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%; ">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=SoBo+center&destination=Sannidhya+hospital&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </div>
+        <button class="bt" onclick="location.href='firstaid.html'"> FIRST AID HELP</button>
+        <br><br><br>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
